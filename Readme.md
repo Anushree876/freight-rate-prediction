@@ -9,9 +9,9 @@ Predicts freight `posted_rate` using load features (distance, equipment, weight,
 1. Install dependencies:
    pip install -r requirements.txt
 2. Open `freight_rate_prediction.ipynb` in Jupyter or Google Colab
-3. Upload the following data files when prompted: `train-test.csv`, `validation.csv`, `validation-predictions-template.csv`, `december-chart-inputs.csv`
+3. Upload the following data files when prompted: `data/train_test.csv`, `data/validation.csv`, `data/validation_predictions_template.csv`, `data/december_chart_inputs.csv`
 4. Run all cells top to bottom
-5. Outputs: `validation_predictions.csv` and `december_chart_inputs.csv` (filled)
+5. Outputs: `validation_predictions.csv` and `data/december_chart_inputs.csv` (filled)
 6. Run scoring (provided separately by Spotter):
    python score.py --predictions validation_predictions.csv --december-predictions december_chart_inputs.csv
 
